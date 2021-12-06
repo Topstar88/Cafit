@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		676CC5D5275EA263000EB2C6 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676CC5D4275EA263000EB2C6 /* UIViewController + Extension.swift */; };
+		67A864D4275D6F19003235F2 /* CafitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A864D3275D6F19003235F2 /* CafitApp.swift */; };
+		67A864D6275D6F19003235F2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A864D5275D6F19003235F2 /* OnboardingView.swift */; };
+		67A864D8275D6F1A003235F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A864D7275D6F1A003235F2 /* Assets.xcassets */; };
+		67A864DB275D6F1A003235F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A864DA275D6F1A003235F2 /* Preview Assets.xcassets */; };
+		67A864E5275D6F1A003235F2 /* CafitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A864E4275D6F1A003235F2 /* CafitTests.swift */; };
+		67A864EF275D6F1A003235F2 /* CafitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A864EE275D6F1A003235F2 /* CafitUITests.swift */; };
+		67A864F1275D6F1A003235F2 /* CafitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A864F0275D6F1A003235F2 /* CafitUITestsLaunchTests.swift */; };
+		67A86505275D6FDB003235F2 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A86502275D6FDB003235F2 /* OnboardingPage.swift */; };
+		67A86511275D92D1003235F2 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67A8650E275D9165003235F2 /* Quicksand-Medium.ttf */; };
+		67A86512275D92D1003235F2 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67A8650F275D9165003235F2 /* Quicksand-SemiBold.ttf */; };
+		67A86513275D92D1003235F2 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67A8650D275D9165003235F2 /* Quicksand-Regular.ttf */; };
+		67A86514275D92D1003235F2 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67A8650C275D9165003235F2 /* Quicksand-Light.ttf */; };
+		67A86515275D92D1003235F2 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67A86510275D9165003235F2 /* Quicksand-Bold.ttf */; };
+		67A86519275DA538003235F2 /* PageControl + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A86518275DA538003235F2 /* PageControl + Extension.swift */; };
+		67A8651C275DC5C8003235F2 /* CFAStep1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8651B275DC5C8003235F2 /* CFAStep1.swift */; };
+		67A8651E275DC5F6003235F2 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8651D275DC5F6003235F2 /* Fonts.swift */; };
+		67A86520275DCA68003235F2 /* CFAStep2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A8651F275DCA68003235F2 /* CFAStep2.swift */; };
+		67A86522275DCA70003235F2 /* CFAStep3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A86521275DCA70003235F2 /* CFAStep3.swift */; };
+		67A86524275DCBFE003235F2 /* CFAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A86523275DCBFE003235F2 /* CFAView.swift */; };
+		67A86526275DE0FB003235F2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A86525275DE0FB003235F2 /* Colors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67A864E1275D6F1A003235F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67A864C8275D6F19003235F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A864CF275D6F19003235F2;
+			remoteInfo = Cafit;
+		};
+		67A864EB275D6F1A003235F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67A864C8275D6F19003235F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A864CF275D6F19003235F2;
+			remoteInfo = Cafit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		676CC5D4275EA263000EB2C6 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		67A864D0275D6F19003235F2 /* Cafit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cafit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A864D3275D6F19003235F2 /* CafitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafitApp.swift; sourceTree = "<group>"; };
+		67A864D5275D6F19003235F2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		67A864D7275D6F1A003235F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67A864DA275D6F1A003235F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67A864E0275D6F1A003235F2 /* CafitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A864E4275D6F1A003235F2 /* CafitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafitTests.swift; sourceTree = "<group>"; };
+		67A864EA275D6F1A003235F2 /* CafitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A864EE275D6F1A003235F2 /* CafitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafitUITests.swift; sourceTree = "<group>"; };
+		67A864F0275D6F1A003235F2 /* CafitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67A86502275D6FDB003235F2 /* OnboardingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		67A86509275D913E003235F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		67A8650C275D9165003235F2 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		67A8650D275D9165003235F2 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		67A8650E275D9165003235F2 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		67A8650F275D9165003235F2 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		67A86510275D9165003235F2 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		67A86518275DA538003235F2 /* PageControl + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PageControl + Extension.swift"; sourceTree = "<group>"; };
+		67A8651B275DC5C8003235F2 /* CFAStep1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFAStep1.swift; sourceTree = "<group>"; };
+		67A8651D275DC5F6003235F2 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		67A8651F275DCA68003235F2 /* CFAStep2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFAStep2.swift; sourceTree = "<group>"; };
+		67A86521275DCA70003235F2 /* CFAStep3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFAStep3.swift; sourceTree = "<group>"; };
+		67A86523275DCBFE003235F2 /* CFAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFAView.swift; sourceTree = "<group>"; };
+		67A86525275DE0FB003235F2 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67A864CD275D6F19003235F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A864DD275D6F1A003235F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A864E7275D6F1A003235F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67A864C7275D6F19003235F2 = {
+			isa = PBXGroup;
+			children = (
+				67A864D2275D6F19003235F2 /* Cafit */,
+				67A864E3275D6F1A003235F2 /* CafitTests */,
+				67A864ED275D6F1A003235F2 /* CafitUITests */,
+				67A864D1275D6F19003235F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67A864D1275D6F19003235F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67A864D0275D6F19003235F2 /* Cafit.app */,
+				67A864E0275D6F1A003235F2 /* CafitTests.xctest */,
+				67A864EA275D6F1A003235F2 /* CafitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67A864D2275D6F19003235F2 /* Cafit */ = {
+			isa = PBXGroup;
+			children = (
+				67A86517275DA529003235F2 /* Extension */,
+				67A86516275DA523003235F2 /* Common */,
+				67A8650A275D914A003235F2 /* Fonts */,
+				67A864FF275D6F46003235F2 /* ViewModel */,
+				67A864FE275D6F41003235F2 /* View */,
+				67A864FD275D6F35003235F2 /* Model */,
+				67A864D3275D6F19003235F2 /* CafitApp.swift */,
+				67A864D7275D6F1A003235F2 /* Assets.xcassets */,
+				67A86509275D913E003235F2 /* Info.plist */,
+				67A864D9275D6F1A003235F2 /* Preview Content */,
+			);
+			path = Cafit;
+			sourceTree = "<group>";
+		};
+		67A864D9275D6F1A003235F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67A864DA275D6F1A003235F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67A864E3275D6F1A003235F2 /* CafitTests */ = {
+			isa = PBXGroup;
+			children = (
+				67A864E4275D6F1A003235F2 /* CafitTests.swift */,
+			);
+			path = CafitTests;
+			sourceTree = "<group>";
+		};
+		67A864ED275D6F1A003235F2 /* CafitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67A864EE275D6F1A003235F2 /* CafitUITests.swift */,
+				67A864F0275D6F1A003235F2 /* CafitUITestsLaunchTests.swift */,
+			);
+			path = CafitUITests;
+			sourceTree = "<group>";
+		};
+		67A864FD275D6F35003235F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67A864FE275D6F41003235F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67A8651A275DC5AE003235F2 /* CFA */,
+				67A86500275D6F4F003235F2 /* Onboarding */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67A864FF275D6F46003235F2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		67A86500275D6F4F003235F2 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				67A864D5275D6F19003235F2 /* OnboardingView.swift */,
+				67A86502275D6FDB003235F2 /* OnboardingPage.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		67A8650A275D914A003235F2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				67A86525275DE0FB003235F2 /* Colors.swift */,
+				67A8651D275DC5F6003235F2 /* Fonts.swift */,
+				67A8650B275D915A003235F2 /* Quicksand */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		67A8650B275D915A003235F2 /* Quicksand */ = {
+			isa = PBXGroup;
+			children = (
+				67A86510275D9165003235F2 /* Quicksand-Bold.ttf */,
+				67A8650C275D9165003235F2 /* Quicksand-Light.ttf */,
+				67A8650E275D9165003235F2 /* Quicksand-Medium.ttf */,
+				67A8650D275D9165003235F2 /* Quicksand-Regular.ttf */,
+				67A8650F275D9165003235F2 /* Quicksand-SemiBold.ttf */,
+			);
+			path = Quicksand;
+			sourceTree = "<group>";
+		};
+		67A86516275DA523003235F2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		67A86517275DA529003235F2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				67A86518275DA538003235F2 /* PageControl + Extension.swift */,
+				676CC5D4275EA263000EB2C6 /* UIViewController + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		67A8651A275DC5AE003235F2 /* CFA */ = {
+			isa = PBXGroup;
+			children = (
+				67A8651B275DC5C8003235F2 /* CFAStep1.swift */,
+				67A8651F275DCA68003235F2 /* CFAStep2.swift */,
+				67A86521275DCA70003235F2 /* CFAStep3.swift */,
+				67A86523275DCBFE003235F2 /* CFAView.swift */,
+			);
+			path = CFA;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67A864CF275D6F19003235F2 /* Cafit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A864F4275D6F1A003235F2 /* Build configuration list for PBXNativeTarget "Cafit" */;
+			buildPhases = (
+				67A864CC275D6F19003235F2 /* Sources */,
+				67A864CD275D6F19003235F2 /* Frameworks */,
+				67A864CE275D6F19003235F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cafit;
+			productName = Cafit;
+			productReference = 67A864D0275D6F19003235F2 /* Cafit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67A864DF275D6F1A003235F2 /* CafitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A864F7275D6F1A003235F2 /* Build configuration list for PBXNativeTarget "CafitTests" */;
+			buildPhases = (
+				67A864DC275D6F1A003235F2 /* Sources */,
+				67A864DD275D6F1A003235F2 /* Frameworks */,
+				67A864DE275D6F1A003235F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67A864E2275D6F1A003235F2 /* PBXTargetDependency */,
+			);
+			name = CafitTests;
+			productName = CafitTests;
+			productReference = 67A864E0275D6F1A003235F2 /* CafitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67A864E9275D6F1A003235F2 /* CafitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A864FA275D6F1A003235F2 /* Build configuration list for PBXNativeTarget "CafitUITests" */;
+			buildPhases = (
+				67A864E6275D6F1A003235F2 /* Sources */,
+				67A864E7275D6F1A003235F2 /* Frameworks */,
+				67A864E8275D6F1A003235F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67A864EC275D6F1A003235F2 /* PBXTargetDependency */,
+			);
+			name = CafitUITests;
+			productName = CafitUITests;
+			productReference = 67A864EA275D6F1A003235F2 /* CafitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67A864C8275D6F19003235F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					67A864CF275D6F19003235F2 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					67A864DF275D6F1A003235F2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 67A864CF275D6F19003235F2;
+					};
+					67A864E9275D6F1A003235F2 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 67A864CF275D6F19003235F2;
+					};
+				};
+			};
+			buildConfigurationList = 67A864CB275D6F19003235F2 /* Build configuration list for PBXProject "Cafit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67A864C7275D6F19003235F2;
+			productRefGroup = 67A864D1275D6F19003235F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67A864CF275D6F19003235F2 /* Cafit */,
+				67A864DF275D6F1A003235F2 /* CafitTests */,
+				67A864E9275D6F1A003235F2 /* CafitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67A864CE275D6F19003235F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A86515275D92D1003235F2 /* Quicksand-Bold.ttf in Resources */,
+				67A864DB275D6F1A003235F2 /* Preview Assets.xcassets in Resources */,
+				67A86512275D92D1003235F2 /* Quicksand-SemiBold.ttf in Resources */,
+				67A864D8275D6F1A003235F2 /* Assets.xcassets in Resources */,
+				67A86514275D92D1003235F2 /* Quicksand-Light.ttf in Resources */,
+				67A86511275D92D1003235F2 /* Quicksand-Medium.ttf in Resources */,
+				67A86513275D92D1003235F2 /* Quicksand-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A864DE275D6F1A003235F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A864E8275D6F1A003235F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67A864CC275D6F19003235F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676CC5D5275EA263000EB2C6 /* UIViewController + Extension.swift in Sources */,
+				67A86520275DCA68003235F2 /* CFAStep2.swift in Sources */,
+				67A86526275DE0FB003235F2 /* Colors.swift in Sources */,
+				67A8651C275DC5C8003235F2 /* CFAStep1.swift in Sources */,
+				67A86522275DCA70003235F2 /* CFAStep3.swift in Sources */,
+				67A864D6275D6F19003235F2 /* OnboardingView.swift in Sources */,
+				67A86505275D6FDB003235F2 /* OnboardingPage.swift in Sources */,
+				67A86519275DA538003235F2 /* PageControl + Extension.swift in Sources */,
+				67A86524275DCBFE003235F2 /* CFAView.swift in Sources */,
+				67A8651E275DC5F6003235F2 /* Fonts.swift in Sources */,
+				67A864D4275D6F19003235F2 /* CafitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A864DC275D6F1A003235F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A864E5275D6F1A003235F2 /* CafitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67A864E6275D6F1A003235F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A864F1275D6F1A003235F2 /* CafitUITestsLaunchTests.swift in Sources */,
+				67A864EF275D6F1A003235F2 /* CafitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67A864E2275D6F1A003235F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67A864CF275D6F19003235F2 /* Cafit */;
+			targetProxy = 67A864E1275D6F1A003235F2 /* PBXContainerItemProxy */;
+		};
+		67A864EC275D6F1A003235F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67A864CF275D6F19003235F2 /* Cafit */;
+			targetProxy = 67A864EB275D6F1A003235F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67A864F2275D6F1A003235F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67A864F3275D6F1A003235F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67A864F5275D6F1A003235F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cafit/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cafit/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.topstar88.Cafit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67A864F6275D6F1A003235F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cafit/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cafit/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.topstar88.Cafit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67A864F8275D6F1A003235F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.topstar88.CafitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cafit.app/Cafit";
+			};
+			name = Debug;
+		};
+		67A864F9275D6F1A003235F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.topstar88.CafitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cafit.app/Cafit";
+			};
+			name = Release;
+		};
+		67A864FB275D6F1A003235F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.topstar88.CafitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cafit;
+			};
+			name = Debug;
+		};
+		67A864FC275D6F1A003235F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.topstar88.CafitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cafit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67A864CB275D6F19003235F2 /* Build configuration list for PBXProject "Cafit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A864F2275D6F1A003235F2 /* Debug */,
+				67A864F3275D6F1A003235F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A864F4275D6F1A003235F2 /* Build configuration list for PBXNativeTarget "Cafit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A864F5275D6F1A003235F2 /* Debug */,
+				67A864F6275D6F1A003235F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A864F7275D6F1A003235F2 /* Build configuration list for PBXNativeTarget "CafitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A864F8275D6F1A003235F2 /* Debug */,
+				67A864F9275D6F1A003235F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A864FA275D6F1A003235F2 /* Build configuration list for PBXNativeTarget "CafitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A864FB275D6F1A003235F2 /* Debug */,
+				67A864FC275D6F1A003235F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67A864C8275D6F19003235F2 /* Project object */;
+}
