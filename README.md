@@ -12,14 +12,14 @@
                      Contact Me: <a href="mailto:topstar88@outlook.com" target="_blank">topstar88@outlook.com</a>
                  </strong>
              </p>
-             <img src="https://raw.githubusercontent.com/Topstar88/Cafit/Images/onboarding-1.png" height="400" width="280" >
-             <img src="https://raw.githubusercontent.com/Topstar88/Cafit/Images/onboarding-2.png" height="400" width="280" >
-             <img src="https://raw.githubusercontent.com/Topstar88/Cafit/Images/onboarding-3.png" height="400" width="280" >
-             <img src="https://raw.githubusercontent.com/Topstar88/Cafit/Images/cfa-1.png" height="400" width="280" >
-             <img src="https://raw.githubusercontent.com/Topstar88/Cafit/Images/cfa-2.png" height="400" width="280" >
-             <img src="https://raw.githubusercontent.com/Topstar88/Cafit/Images/cfa-3.png" height="400" width="280" >
-             <img src="https://raw.githubusercontent.com/Topstar88/Cafit/Images/home.png" height="400" width="280" >
-             <img src="https://raw.githubusercontent.com/Topstar88/Cafit/Images/menu.png" height="400" width="280" >
+             <img src="https://raw.githubusercontent.com/Topstar88/Cafit/main/Images/onboarding-1.png" height="400" width="280" >
+             <img src="https://raw.githubusercontent.com/Topstar88/Cafit/main/Images/onboarding-2.png" height="400" width="280" >
+             <img src="https://raw.githubusercontent.com/Topstar88/Cafit/main/Images/onboarding-3.png" height="400" width="280" >
+             <img src="https://raw.githubusercontent.com/Topstar88/Cafit/main/Images/cfa-1.png" height="400" width="280" >
+             <img src="https://raw.githubusercontent.com/Topstar88/Cafit/main/Images/cfa-2.png" height="400" width="280" >
+             <img src="https://raw.githubusercontent.com/Topstar88/Cafit/main/Images/cfa-3.png" height="400" width="280" >
+             <img src="https://raw.githubusercontent.com/Topstar88/Cafit/main/Images/home.png" height="400" width="280" >
+             <img src="https://raw.githubusercontent.com/Topstar88/Cafit/main/Images/menu.png" height="400" width="280" >
          </div>
     </div>
     <hr>
