@@ -2,7 +2,7 @@
 //  OnboardingPage.swift
 //  Onboarding Quality Weather
 //
-//  Created by Tony on 05/12/2021.
+//  Created by Topstar88 on 05/12/2021.
 //
 
 import SwiftUI

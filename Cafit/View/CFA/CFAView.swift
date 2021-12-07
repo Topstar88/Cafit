@@ -2,13 +2,18 @@
 //  CFAView.swift
 //  Cafit
 //
-//  Created by Polaris on 12/5/21.
+//  Created by Topstar88 on 12/5/21.
 //
 
 import SwiftUI
 
 struct CFAView: View {
     @State private var currentTab = 0
+    
+    @Environment(\.viewController) private var viewControllerHolder: ViewControllerHolder
+    private var viewController: UIViewController? {
+        self.viewControllerHolder.value
+    }
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -26,8 +31,12 @@ struct CFAView: View {
                 .edgesIgnoringSafeArea([.top, .bottom])
             Group {
                 Button(action: {
-                    withAnimation {
-                        currentTab = min(currentTab + 1, 2)
+                    if currentTab == 2 {
+                        self.viewController?.present(style: .fullScreen) { MenuView() }
+                    } else {
+                        withAnimation {
+                            currentTab = min(currentTab + 1, 2)
+                        }
                     }
                 }, label: {
                     Text(currentTab == 0 ? "Get Started" : "Next")

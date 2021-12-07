@@ -28,6 +28,22 @@
 		67A86522275DCA70003235F2 /* CFAStep3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A86521275DCA70003235F2 /* CFAStep3.swift */; };
 		67A86524275DCBFE003235F2 /* CFAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A86523275DCBFE003235F2 /* CFAView.swift */; };
 		67A86526275DE0FB003235F2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A86525275DE0FB003235F2 /* Colors.swift */; };
+		67F256A0275F2BDB0062326D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F2569F275F2BDB0062326D /* MenuView.swift */; };
+		67F256A3275F2D870062326D /* QGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F256A2275F2D870062326D /* QGrid.swift */; };
+		67F256A5275F4A180062326D /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F256A4275F4A180062326D /* Config.swift */; };
+		67F256AB275F6CF70062326D /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F256AA275F6CF70062326D /* Session.swift */; };
+		67F256B2275F6ED10062326D /* ACarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F256AD275F6ED10062326D /* ACarousel.swift */; };
+		67F256B3275F6ED10062326D /* ACarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F256AE275F6ED10062326D /* ACarouselViewModel.swift */; };
+		67F256B4275F6ED10062326D /* ACarouselAutoScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F256AF275F6ED10062326D /* ACarouselAutoScroll.swift */; };
+		67F256B5275F6ED10062326D /* AppLifeCycleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F256B0275F6ED10062326D /* AppLifeCycleModifier.swift */; };
+		67F256B6275F6ED10062326D /* View+ReceiveTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F256B1275F6ED10062326D /* View+ReceiveTimer.swift */; };
+		67F256B8275F6EE80062326D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F256B7275F6EE80062326D /* HomeView.swift */; };
+		67F256BA275F87540062326D /* ExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F256B9275F87540062326D /* ExerciseViewModel.swift */; };
+		67F256BD275FCC7B0062326D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67F256BF275FCC7B0062326D /* Localizable.strings */; };
+		67F256C2275FCCD70062326D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F256C1275FCCD70062326D /* Item.swift */; };
+		67F256C6275FD34B0062326D /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F256C5275FD34B0062326D /* HealthKit.framework */; };
+		67F256C9275FE5150062326D /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F256C8275FE5150062326D /* ExerciseView.swift */; };
+		67F256D32760053A0062326D /* AlertControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F256D22760053A0062326D /* AlertControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +89,24 @@
 		67A86521275DCA70003235F2 /* CFAStep3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFAStep3.swift; sourceTree = "<group>"; };
 		67A86523275DCBFE003235F2 /* CFAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFAView.swift; sourceTree = "<group>"; };
 		67A86525275DE0FB003235F2 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		67F2569F275F2BDB0062326D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		67F256A2275F2D870062326D /* QGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QGrid.swift; sourceTree = "<group>"; };
+		67F256A4275F4A180062326D /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		67F256AA275F6CF70062326D /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		67F256AD275F6ED10062326D /* ACarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACarousel.swift; sourceTree = "<group>"; };
+		67F256AE275F6ED10062326D /* ACarouselViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACarouselViewModel.swift; sourceTree = "<group>"; };
+		67F256AF275F6ED10062326D /* ACarouselAutoScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACarouselAutoScroll.swift; sourceTree = "<group>"; };
+		67F256B0275F6ED10062326D /* AppLifeCycleModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLifeCycleModifier.swift; sourceTree = "<group>"; };
+		67F256B1275F6ED10062326D /* View+ReceiveTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+ReceiveTimer.swift"; sourceTree = "<group>"; };
+		67F256B7275F6EE80062326D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		67F256B9275F87540062326D /* ExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewModel.swift; sourceTree = "<group>"; };
+		67F256BE275FCC7B0062326D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		67F256C0275FCC7E0062326D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		67F256C1275FCCD70062326D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		67F256C3275FD34A0062326D /* Cafit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cafit.entitlements; sourceTree = "<group>"; };
+		67F256C5275FD34B0062326D /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		67F256C8275FE5150062326D /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		67F256D22760053A0062326D /* AlertControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67F256C6275FD34B0062326D /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +135,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		672BB280276011D700417CC1 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				67F2569F275F2BDB0062326D /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		67A864C7275D6F19003235F2 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +150,7 @@
 				67A864E3275D6F1A003235F2 /* CafitTests */,
 				67A864ED275D6F1A003235F2 /* CafitUITests */,
 				67A864D1275D6F19003235F2 /* Products */,
+				67F256C4275FD34B0062326D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,16 +167,18 @@
 		67A864D2275D6F19003235F2 /* Cafit */ = {
 			isa = PBXGroup;
 			children = (
-				67A86517275DA529003235F2 /* Extension */,
+				67F256C3275FD34A0062326D /* Cafit.entitlements */,
 				67A86516275DA523003235F2 /* Common */,
-				67A8650A275D914A003235F2 /* Fonts */,
-				67A864FF275D6F46003235F2 /* ViewModel */,
-				67A864FE275D6F41003235F2 /* View */,
+				67A86517275DA529003235F2 /* Extension */,
 				67A864FD275D6F35003235F2 /* Model */,
+				67A864FE275D6F41003235F2 /* View */,
+				67A864FF275D6F46003235F2 /* ViewModel */,
+				67F256A1275F2D640062326D /* Utils */,
+				67A864D9275D6F1A003235F2 /* Preview Content */,
 				67A864D3275D6F19003235F2 /* CafitApp.swift */,
 				67A864D7275D6F1A003235F2 /* Assets.xcassets */,
 				67A86509275D913E003235F2 /* Info.plist */,
-				67A864D9275D6F1A003235F2 /* Preview Content */,
+				67F256BF275FCC7B0062326D /* Localizable.strings */,
 			);
 			path = Cafit;
 			sourceTree = "<group>";
@@ -165,6 +211,7 @@
 		67A864FD275D6F35003235F2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				67F256C1275FCCD70062326D /* Item.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,8 +219,10 @@
 		67A864FE275D6F41003235F2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				67A8651A275DC5AE003235F2 /* CFA */,
+				672BB280276011D700417CC1 /* Menu */,
 				67A86500275D6F4F003235F2 /* Onboarding */,
+				67A8651A275DC5AE003235F2 /* CFA */,
+				67F256C7275FE5080062326D /* Home */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,6 +230,7 @@
 		67A864FF275D6F46003235F2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				67F256B9275F87540062326D /* ExerciseViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -219,6 +269,9 @@
 		67A86516275DA523003235F2 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				67A8650A275D914A003235F2 /* Fonts */,
+				67F256A4275F4A180062326D /* Config.swift */,
+				67F256AA275F6CF70062326D /* Session.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -241,6 +294,45 @@
 				67A86523275DCBFE003235F2 /* CFAView.swift */,
 			);
 			path = CFA;
+			sourceTree = "<group>";
+		};
+		67F256A1275F2D640062326D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				67F256AC275F6EC80062326D /* Acarousel */,
+				67F256A2275F2D870062326D /* QGrid.swift */,
+				67F256D22760053A0062326D /* AlertControlView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		67F256AC275F6EC80062326D /* Acarousel */ = {
+			isa = PBXGroup;
+			children = (
+				67F256AD275F6ED10062326D /* ACarousel.swift */,
+				67F256AF275F6ED10062326D /* ACarouselAutoScroll.swift */,
+				67F256AE275F6ED10062326D /* ACarouselViewModel.swift */,
+				67F256B0275F6ED10062326D /* AppLifeCycleModifier.swift */,
+				67F256B1275F6ED10062326D /* View+ReceiveTimer.swift */,
+			);
+			path = Acarousel;
+			sourceTree = "<group>";
+		};
+		67F256C4275FD34B0062326D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67F256C5275FD34B0062326D /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67F256C7275FE5080062326D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				67F256B7275F6EE80062326D /* HomeView.swift */,
+				67F256C8275FE5150062326D /* ExerciseView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +421,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 67A864C7275D6F19003235F2;
 			productRefGroup = 67A864D1275D6F19003235F2 /* Products */;
@@ -352,6 +445,7 @@
 				67A86512275D92D1003235F2 /* Quicksand-SemiBold.ttf in Resources */,
 				67A864D8275D6F1A003235F2 /* Assets.xcassets in Resources */,
 				67A86514275D92D1003235F2 /* Quicksand-Light.ttf in Resources */,
+				67F256BD275FCC7B0062326D /* Localizable.strings in Resources */,
 				67A86511275D92D1003235F2 /* Quicksand-Medium.ttf in Resources */,
 				67A86513275D92D1003235F2 /* Quicksand-Regular.ttf in Resources */,
 			);
@@ -378,15 +472,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67F256C9275FE5150062326D /* ExerciseView.swift in Sources */,
 				676CC5D5275EA263000EB2C6 /* UIViewController + Extension.swift in Sources */,
+				67F256A0275F2BDB0062326D /* MenuView.swift in Sources */,
+				67F256B6275F6ED10062326D /* View+ReceiveTimer.swift in Sources */,
 				67A86520275DCA68003235F2 /* CFAStep2.swift in Sources */,
+				67F256C2275FCCD70062326D /* Item.swift in Sources */,
+				67F256A5275F4A180062326D /* Config.swift in Sources */,
+				67F256B8275F6EE80062326D /* HomeView.swift in Sources */,
 				67A86526275DE0FB003235F2 /* Colors.swift in Sources */,
+				67F256B5275F6ED10062326D /* AppLifeCycleModifier.swift in Sources */,
 				67A8651C275DC5C8003235F2 /* CFAStep1.swift in Sources */,
 				67A86522275DCA70003235F2 /* CFAStep3.swift in Sources */,
+				67F256A3275F2D870062326D /* QGrid.swift in Sources */,
+				67F256B2275F6ED10062326D /* ACarousel.swift in Sources */,
+				67F256D32760053A0062326D /* AlertControlView.swift in Sources */,
+				67F256B4275F6ED10062326D /* ACarouselAutoScroll.swift in Sources */,
 				67A864D6275D6F19003235F2 /* OnboardingView.swift in Sources */,
+				67F256B3275F6ED10062326D /* ACarouselViewModel.swift in Sources */,
 				67A86505275D6FDB003235F2 /* OnboardingPage.swift in Sources */,
 				67A86519275DA538003235F2 /* PageControl + Extension.swift in Sources */,
+				67F256BA275F87540062326D /* ExerciseViewModel.swift in Sources */,
 				67A86524275DCBFE003235F2 /* CFAView.swift in Sources */,
+				67F256AB275F6CF70062326D /* Session.swift in Sources */,
 				67A8651E275DC5F6003235F2 /* Fonts.swift in Sources */,
 				67A864D4275D6F19003235F2 /* CafitApp.swift in Sources */,
 			);
@@ -423,6 +531,18 @@
 			targetProxy = 67A864EB275D6F1A003235F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67F256BF275FCC7B0062326D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F256BE275FCC7B0062326D /* en */,
+				67F256C0275FCC7E0062326D /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		67A864F2275D6F1A003235F2 /* Debug */ = {
@@ -546,6 +666,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cafit/Cafit.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -579,6 +700,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cafit/Cafit.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

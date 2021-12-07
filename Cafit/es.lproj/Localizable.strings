@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Cafit
+
+  Created by Topstar88 on 12/6/21.
+  
+*/
+"Hello" = "Hola";
+"Week 1" = "Semana 1";
+"Training Day 1" = "Día de entrenamiento 1";
+"You already finished this course" = "Ya terminaste este curso";

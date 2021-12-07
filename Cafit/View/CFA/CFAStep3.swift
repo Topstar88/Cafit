@@ -2,14 +2,21 @@
 //  CFAStep3.swift
 //  Cafit
 //
-//  Created by Polaris on 12/5/21.
+//  Created by Topstar88 on 12/5/21.
 //
 
 import SwiftUI
 
 struct CFAStep3: View {
-    @State private var isSoundOn: Bool = true
+    @State private var isSwitchOn: Bool = true
     @State private var selectedGender: Int = 0
+    
+    @State private var isShowBirthModal = false
+    @State private var isShowHeightModal = false
+    @State private var isShowWeightModal = false
+    @State private var birthday = "Jan 1, 1990"
+    @State private var weight = "65"
+    @State private var height = "175"
     
     var body: some View {
         VStack {
@@ -22,6 +29,7 @@ struct CFAStep3: View {
                 .foregroundColor(Color.darkColor)
                 .multilineTextAlignment(.center)
                 .padding([.bottom], 35)
+            
                 Group {
                     Spacer()
                         .frame(maxHeight: 25)
@@ -38,24 +46,23 @@ struct CFAStep3: View {
                             .foregroundColor(Color.darkColor)
                             .padding([.leading], 5)
                         Group {
-                            Toggle("", isOn: $isSoundOn)
+                            Toggle("", isOn: $isSwitchOn)
                                 .tint(Color.primaryColor)
                         }
                         .frame(maxWidth: .infinity, alignment: .trailing)
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
+                    
                     Spacer()
                         .frame(maxHeight: 20)
+                    
                     Rectangle()
                         .fill(Color.lightGrayColor)
                         .frame(maxWidth: .infinity, maxHeight: 1)
                 }
                 .padding([.leading, .trailing], 25)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .onTapGesture {
-                    
-                }
-                
+                            
             ForEach(0...2, id: \.self) { index in
                 Group {
                     Spacer()
@@ -65,23 +72,35 @@ struct CFAStep3: View {
                             .font(.quicksand(.bold, size: 20))
                             .foregroundColor(Color.darkColor)
                         Group {
-                            Text(index == 0 ? "Aug 25, 1990" : (index == 1 ? "175 cm" : "75 kg"))
+                            Text(index == 0 ? self.birthday : (index == 1 ? "\(self.height) cm" : "\(self.weight) kg"))
                                 .font(.quicksand(.regular, size: 18))
                                 .foregroundColor(Color.primaryColor)
                         }
                         .frame(maxWidth: .infinity, alignment: .trailing)
                     }
+                    .onTapGesture {
+                        if index == 0 {
+                            self.isShowBirthModal = true
+                        } else if index == 1 {
+                            self.isShowHeightModal = true
+                        } else {
+                            self.isShowWeightModal = true
+                        }
+                    }
+                                        
                     Spacer()
                         .frame(maxHeight: 20)
+                    
                     Rectangle()
                         .fill(Color.lightGrayColor)
                         .frame(maxWidth: .infinity, maxHeight: 1)
                 }
                 .padding([.leading, .trailing], 25)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .onTapGesture {
-                    
-                }
+                
+                AlertControlView(textString: index == 0 ? $birthday : (index == 1 ? $height : $weight), showAlert: index == 0 ? $isShowBirthModal : (index == 1 ? $isShowHeightModal : $isShowWeightModal), title: "Cafit",
+                                 message: index == 0 ? "Please enter your birthday below." : (index == 1 ? "Please enter your height below." : "Please enter your weight below."), placeholder: "", type: index == 0 ? UIKeyboardType.default : UIKeyboardType.decimalPad)
+                    .frame(maxHeight: 0)
             }
             Group {
                 Spacer()
