@@ -63,6 +63,6 @@ struct ExerciseView: View {
 
 struct ExerciseView_Previews: PreviewProvider {
     static var previews: some View {
-        ExerciseView(index: 0, color: .black, borderColor: .blue, title: "Title", mins: "Mins")
+        ExerciseView(index: 0, color: .darkColor, borderColor: .yellow, title: "Title", mins: "Mins")
     }
 }
