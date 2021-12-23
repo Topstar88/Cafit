@@ -1,0 +1,6 @@
+framework module Pods_Cafit_CafitUITests {
+  umbrella header "Pods-Cafit-CafitUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

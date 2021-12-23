@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F6A89C523359213AB1AC738 /* Pods_Cafit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53404AC714D4B7CA6EC9E474 /* Pods_Cafit.framework */; };
 		676CC5D5275EA263000EB2C6 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676CC5D4275EA263000EB2C6 /* UIViewController + Extension.swift */; };
 		67A864D4275D6F19003235F2 /* CafitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A864D3275D6F19003235F2 /* CafitApp.swift */; };
 		67A864D6275D6F19003235F2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A864D5275D6F19003235F2 /* OnboardingView.swift */; };
@@ -44,6 +45,8 @@
 		67F256C6275FD34B0062326D /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F256C5275FD34B0062326D /* HealthKit.framework */; };
 		67F256C9275FE5150062326D /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F256C8275FE5150062326D /* ExerciseView.swift */; };
 		67F256D32760053A0062326D /* AlertControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F256D22760053A0062326D /* AlertControlView.swift */; };
+		9089CF64278C7B473DB90D75 /* Pods_Cafit_CafitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAB5B36E4B702C89E0560F8 /* Pods_Cafit_CafitUITests.framework */; };
+		A00F16D355293692F7F4D365 /* Pods_CafitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8843566FC1FD1ABC71AEC1E8 /* Pods_CafitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11A33227B4B619C7287E1F59 /* Pods-Cafit-CafitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafit-CafitUITests.release.xcconfig"; path = "Target Support Files/Pods-Cafit-CafitUITests/Pods-Cafit-CafitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		13DA66C04B8C7256307B7AEA /* Pods-Cafit-CafitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafit-CafitUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cafit-CafitUITests/Pods-Cafit-CafitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F817F16B47FD9153428EE23 /* Pods-Cafit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafit.release.xcconfig"; path = "Target Support Files/Pods-Cafit/Pods-Cafit.release.xcconfig"; sourceTree = "<group>"; };
+		4054B9D54F8CDF10F6B6932A /* Pods-CafitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafitTests.release.xcconfig"; path = "Target Support Files/Pods-CafitTests/Pods-CafitTests.release.xcconfig"; sourceTree = "<group>"; };
+		4DAB5B36E4B702C89E0560F8 /* Pods_Cafit_CafitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cafit_CafitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53404AC714D4B7CA6EC9E474 /* Pods_Cafit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cafit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		676CC5D4275EA263000EB2C6 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
 		67A864D0275D6F19003235F2 /* Cafit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cafit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A864D3275D6F19003235F2 /* CafitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafitApp.swift; sourceTree = "<group>"; };
@@ -107,6 +116,9 @@
 		67F256C5275FD34B0062326D /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		67F256C8275FE5150062326D /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		67F256D22760053A0062326D /* AlertControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControlView.swift; sourceTree = "<group>"; };
+		78AC9E4035EA070FC319E276 /* Pods-Cafit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafit.debug.xcconfig"; path = "Target Support Files/Pods-Cafit/Pods-Cafit.debug.xcconfig"; sourceTree = "<group>"; };
+		8843566FC1FD1ABC71AEC1E8 /* Pods_CafitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CafitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8F5BEF4FE128D997CBFBAF /* Pods-CafitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafitTests.debug.xcconfig"; path = "Target Support Files/Pods-CafitTests/Pods-CafitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67F256C6275FD34B0062326D /* HealthKit.framework in Frameworks */,
+				1F6A89C523359213AB1AC738 /* Pods_Cafit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00F16D355293692F7F4D365 /* Pods_CafitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,12 +143,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9089CF64278C7B473DB90D75 /* Pods_Cafit_CafitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		540B2BD393C67D62F0809ED2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78AC9E4035EA070FC319E276 /* Pods-Cafit.debug.xcconfig */,
+				1F817F16B47FD9153428EE23 /* Pods-Cafit.release.xcconfig */,
+				13DA66C04B8C7256307B7AEA /* Pods-Cafit-CafitUITests.debug.xcconfig */,
+				11A33227B4B619C7287E1F59 /* Pods-Cafit-CafitUITests.release.xcconfig */,
+				DF8F5BEF4FE128D997CBFBAF /* Pods-CafitTests.debug.xcconfig */,
+				4054B9D54F8CDF10F6B6932A /* Pods-CafitTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		672BB280276011D700417CC1 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +180,7 @@
 				67A864ED275D6F1A003235F2 /* CafitUITests */,
 				67A864D1275D6F19003235F2 /* Products */,
 				67F256C4275FD34B0062326D /* Frameworks */,
+				540B2BD393C67D62F0809ED2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -322,6 +352,9 @@
 			isa = PBXGroup;
 			children = (
 				67F256C5275FD34B0062326D /* HealthKit.framework */,
+				53404AC714D4B7CA6EC9E474 /* Pods_Cafit.framework */,
+				4DAB5B36E4B702C89E0560F8 /* Pods_Cafit_CafitUITests.framework */,
+				8843566FC1FD1ABC71AEC1E8 /* Pods_CafitTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -342,6 +375,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67A864F4275D6F1A003235F2 /* Build configuration list for PBXNativeTarget "Cafit" */;
 			buildPhases = (
+				C4E5482BCE88D4F86FC0BF18 /* [CP] Check Pods Manifest.lock */,
 				67A864CC275D6F19003235F2 /* Sources */,
 				67A864CD275D6F19003235F2 /* Frameworks */,
 				67A864CE275D6F19003235F2 /* Resources */,
@@ -359,6 +393,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67A864F7275D6F1A003235F2 /* Build configuration list for PBXNativeTarget "CafitTests" */;
 			buildPhases = (
+				DFAA9E2C4A8E526E3C17DC07 /* [CP] Check Pods Manifest.lock */,
 				67A864DC275D6F1A003235F2 /* Sources */,
 				67A864DD275D6F1A003235F2 /* Frameworks */,
 				67A864DE275D6F1A003235F2 /* Resources */,
@@ -377,6 +412,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67A864FA275D6F1A003235F2 /* Build configuration list for PBXNativeTarget "CafitUITests" */;
 			buildPhases = (
+				B23FB25959F74724094AB003 /* [CP] Check Pods Manifest.lock */,
 				67A864E6275D6F1A003235F2 /* Sources */,
 				67A864E7275D6F1A003235F2 /* Frameworks */,
 				67A864E8275D6F1A003235F2 /* Resources */,
@@ -466,6 +502,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B23FB25959F74724094AB003 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cafit-CafitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E5482BCE88D4F86FC0BF18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cafit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFAA9E2C4A8E526E3C17DC07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CafitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		67A864CC275D6F19003235F2 /* Sources */ = {
@@ -663,6 +768,7 @@
 		};
 		67A864F5275D6F1A003235F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78AC9E4035EA070FC319E276 /* Pods-Cafit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -697,6 +803,7 @@
 		};
 		67A864F6275D6F1A003235F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F817F16B47FD9153428EE23 /* Pods-Cafit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -731,6 +838,7 @@
 		};
 		67A864F8275D6F1A003235F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8F5BEF4FE128D997CBFBAF /* Pods-CafitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -755,6 +863,7 @@
 		};
 		67A864F9275D6F1A003235F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4054B9D54F8CDF10F6B6932A /* Pods-CafitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -779,6 +888,7 @@
 		};
 		67A864FB275D6F1A003235F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DA66C04B8C7256307B7AEA /* Pods-Cafit-CafitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -801,6 +911,7 @@
 		};
 		67A864FC275D6F1A003235F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11A33227B4B619C7287E1F59 /* Pods-Cafit-CafitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
